@@ -53,3 +53,7 @@ import androidx.core.view.WindowCompat;
 向 styles.xml 中添加内容
 
 <item name="android:navigationBarColor">@android:color/transparent</item>
+
+
+
+更多详情请参考 https://developer.android.com/develop/ui/views/layout/edge-to-edge#handle-overlaps
