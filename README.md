@@ -1,5 +1,5 @@
-# React Native android safeArea and gesture guide bar white background problem solution
-# 关于安卓顶部状态栏和底部手势指示器白条区域非透明的问题进行解决
+## React Native android safeArea and gesture guide bar white background problem solution
+## 关于安卓顶部状态栏和底部手势指示器白条区域非透明的问题进行解决
 
 
 前言
@@ -10,7 +10,7 @@ React Native 原生组件 <StatusBar />
 React Native 提供的 Hooks - useColorScheme
 重写应用 Main Activity 的 onCreate 生命周期方法
 修改 styles.xml 配置文件
-顶部状态栏
+## 顶部状态栏
 顶部的状态栏可以使用 React Native 提供的 <StatusBar /> 组件实现透明
 
 ```TYPESCRIPT
@@ -32,8 +32,7 @@ const App: FC = () => {
 
 export default App;
 ```
-
-底部导航栏
+## 底部导航栏
 打开 /android/app/src/main/java/包名/MainActivity.java
 
 在 MainActivity.java 中的 MainActivity 类中实现重写 onCreate 方法
