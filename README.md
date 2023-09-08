@@ -1,4 +1,5 @@
-# React Native android safeArea and gesture guide bar(手势指示器) white background problem solution
+# React Native android safeArea and gesture guide bar white background problem solution
+# 关于安卓顶部状态栏和底部手势指示器白条区域非透明的问题进行解决
 
 
 前言
