@@ -36,25 +36,25 @@ export default App;
 打开 /android/app/src/main/java/包名/MainActivity.java
 
 在 MainActivity.java 中的 MainActivity 类中实现重写 onCreate 方法
-
+```JAVA
 @Override
 protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(savedInstanceState);
   WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
 }
-
+```
 注意：onCreate 方法应该被写在 public class MainActivity extends ReactActivity 的内部
 
 同时，在MainActivity.java 的头部 import 相关类
-
+```JAVA
 import android.os.Bundle;
 import androidx.core.view.WindowCompat;
-
+```
 打开 /android/app/src/main/res/values/styles.xml
 向 styles.xml 中添加内容
-
+```XML
 <item name="android:navigationBarColor">@android:color/transparent</item>
-
+```
 
 
 更多详情请参考 https://developer.android.com/develop/ui/views/layout/edge-to-edge#handle-overlaps
