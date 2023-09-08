@@ -13,6 +13,7 @@ React Native 提供的 Hooks - useColorScheme
 顶部状态栏
 顶部的状态栏可以使用 React Native 提供的 <StatusBar /> 组件实现透明
 
+```TYPESCRIPT
 import { View, StatusBar, useColorScheme } from "react-native";
 import type { FC } from "react";
 
@@ -30,7 +31,7 @@ const App: FC = () => {
 };
 
 export default App;
-
+```
 底部导航栏
 打开 /android/app/src/main/java/包名/MainActivity.java
 
