@@ -41,12 +41,15 @@ protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(savedInstanceState);
   WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
 }
+
 注意：onCreate 方法应该被写在 public class MainActivity extends ReactActivity 的内部
 
 同时，在MainActivity.java 的头部 import 相关类
+
 import android.os.Bundle;
 import androidx.core.view.WindowCompat;
 
 打开 /android/app/src/main/res/values/styles.xml
 向 styles.xml 中添加内容
+
 <item name="android:navigationBarColor">@android:color/transparent</item>
