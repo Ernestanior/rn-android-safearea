@@ -32,10 +32,12 @@ const App: FC = () => {
 
 export default App;
 ```
+
 底部导航栏
 打开 /android/app/src/main/java/包名/MainActivity.java
 
 在 MainActivity.java 中的 MainActivity 类中实现重写 onCreate 方法
+
 ```JAVA
 @Override
 protected void onCreate(Bundle savedInstanceState) {
@@ -43,16 +45,20 @@ protected void onCreate(Bundle savedInstanceState) {
   WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
 }
 ```
+
 注意：onCreate 方法应该被写在 public class MainActivity extends ReactActivity 的内部
 
 同时，在MainActivity.java 的头部 import 相关类
-```JAVA
+
+```
 import android.os.Bundle;
 import androidx.core.view.WindowCompat;
 ```
+
 打开 /android/app/src/main/res/values/styles.xml
 向 styles.xml 中添加内容
-```XML
+
+```
 <item name="android:navigationBarColor">@android:color/transparent</item>
 ```
 
